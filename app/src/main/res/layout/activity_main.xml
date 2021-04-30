@@ -39,6 +39,14 @@
                 android:autoLink="web"
                 android:lineSpacingExtra="@dimen/line_spacing"
                 android:padding="@dimen/padding_regular" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button_comment"
+                android:background="@color/design_default_color_primary"
+                android:textColor="@android:color/white"
+                android:text="@string/comment"
+                android:layout_margin="@dimen/padding_regular" />
         </LinearLayout>
     </ScrollView>
 
